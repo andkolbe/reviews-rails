@@ -13,7 +13,6 @@ module ApplicationHelper
             # implicit return
             base_title
         else
-            # string concatenation
             page_title + ' | ' + base_title
         end
     end
