@@ -2,7 +2,7 @@ require "test_helper"
 
 class HtmlPageControllerTest < ActionDispatch::IntegrationTest
   test "should get home" do
-    get html_pages_home_url
+    get root_path
     assert_response :success
     assert_select "title", "Home | Reviews"
   end
