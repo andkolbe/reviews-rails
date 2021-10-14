@@ -39,4 +39,6 @@
 yarn-debug.log*
 .yarn-integrity
 
-rails.txt
+rails_basics.txt
+rails_questions.txt
+config/routes.txt
