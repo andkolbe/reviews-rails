@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    
+    <%# stylesheet_link_tag is a function. In Ruby, parenthesis around a function call are optional %>
+    <%# stylesheet_link_tag has two arguments. a string 'application' with a path to the stylesheet, and a hash with two elements %>
+    <%# media: is the start of a hash. In Ruby, curly braces around a hash are optional %>
     <%= stylesheet_link_tag('application', { media: 'all', 'data-turbolinks-track': 'reload' }) %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
