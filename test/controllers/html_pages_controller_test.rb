@@ -8,19 +8,19 @@ class HtmlPageControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get help" do
-    get html_pages_help_url
+    get help_path
     assert_response :success
     assert_select "title", "Help | Reviews"
   end
 
   test "should get about" do
-    get html_pages_about_url
+    get about_path
     assert_response :success
     assert_select "title", "About | Reviews"
   end
 
   test "should get contact page" do
-    get html_pages_contact_url
+    get contact_path
     assert_response :success
     assert_select "title", "Contact | Reviews"
   end
